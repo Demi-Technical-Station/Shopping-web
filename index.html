@@ -1,0 +1,861 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>优惠社-会省钱，惠生活！国内领先知名折扣网站！汇集全网精品超低折扣信息</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="js/breathe.js"></script>
+</head>
+<body>
+	<!-- 顶部条开始 -->
+	<div class="topbar">
+		<div class="inner_c">
+			<div class="fl">
+				<span>欢迎来到优惠社 ！<a href="#">新手抢购教程</a></span>
+			</div>
+			<div class="fr">
+				<ul>
+					<li class="fir"><a href="#"><b></b>手机客户端</a></li>
+					<li><a href="#">QQ登录</a></li>
+					<li><a href="#">微博登录</a></li>
+					<li><b>丨</b><a href="#">登录</a></li>
+					<li><a href="#">会员注册</a></li>
+					<li><a href="#">商家合作</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- 顶部条结束 -->
+	<!-- 头部开始 -->
+	<div class="header inner_c">
+		<div class="logo fl">
+			<h1>
+				<a href="#" title="优惠社" alt="优惠社">优惠社-会省钱，惠生活！国内领先知名折扣网站！汇集全网精品超低折扣信息</a>
+			</h1>
+		</div>
+		<div class="xuexi fl">
+			<a href="#" target="_blank"></a>
+		</div>
+		<div class="search fr">
+			<div class="soso">
+				<div class="kuang fl">
+						<label for="kk" class="jiahezi">
+							请输入您要查询的内容
+						</label>
+						<img src="images/hua.jpg"/>
+						<input type="text" id="kk" />
+							
+							<script type="text/javascript">
+								
+								$("#kk").keydown(function(){
+									$(".jiahezi").hide();
+								});
+								$("#kk").blur(function(){
+									if($("#kk").val() == ""){
+										$(".jiahezi").show();
+									}
+								})
+							</script>
+
+				</div>
+				<div class="btn fl">
+					<input type="submit" class="submit" value="搜索" />
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 头部结束 -->
+	<!-- top_nav开始 -->
+	<div class="top_nav">
+		<div class="inner_c">
+			<ul>
+				<li class="cur first"><a href="#">首页</a></li>
+				<li class="hot"><a href="#">零元购</a><b></b></li>
+				<li><a href="#">九块九</a></li>
+				<li><a href="#">超值购</a></li>
+				<li><a href="#">值得买</a></li>
+			</ul>
+			<script type="text/javascript">
+						
+						$(".top_nav .inner_c ul li").mouseenter(function(){
+							
+								$(this).addClass("cur");
+							
+						});
+						$(".top_nav .inner_c ul li").mouseleave(function(){
+							$(this).removeClass("cur");
+						});
+
+			</script>
+		</div>
+	</div>
+	<!-- top_nav结束 -->
+	<!-- main开始 -->
+	<div class="mainbox inner_c">
+		<div class="mainbox_l fl">
+			<ul>
+				<li class="first"><a href="#"><span class="nvzhuang"></span>潮流女装</a></li>
+				<li><a href="#"><span class="nanzhuang"></span>品质男装</a></li>
+				<li><a href="#"><span class="xiebao"></span>时尚鞋包</a></li>
+				<li><a href="#"><span class="shuma"></span>手机数码</a></li>
+				<li><a href="#"><span class="muying"></span>母婴玩具</a></li>
+				<li><a href="#"><span class="meizhuang"></span>个护美妆</a></li>
+				<li><a href="#"><span class="meishi"></span>美食饮品</a></li>
+				<li><a href="#"><span class="jiaju"></span>家居家纺</a></li>
+				<li><a href="#"><span class="zhubao"></span>珠宝配饰</a></li>
+				<li class="last"><a href="#"><span class="qita"></span>其它精选</a></li>
+			</ul>
+		</div>
+		<div class="mainbox_m fl">
+			<div class="mainbox_m_h" id="carousel">
+				<ul class="imageList">
+					<li class="first"><a href="#"><img src="images/banner1.png" alt="" /></a></li>
+					<li><a href="#"><img src="images/banner2.png" alt="" /></a></li>
+					<li><a href="#"><img src="images/banner3.jpg" alt="" /></a></li>
+				</ul>
+				<ol class="circles">
+					<li class="cur">1</li>
+					<li>2</li>
+					<li>3</li>
+				</ol>
+			</div>
+			<!-- 此处插入呼吸轮播 -->
+				<script type="text/javascript">
+					breathe("#carousel",2000,400);
+				</script>
+			<div class="mainbox_m_b">
+					<div><a href="#"><img src="images/mainbox_m_b1.jpg" alt="" /></a></div>			
+					<div><a href="#"><img src="images/mainbox_m_b2.jpg" alt="" /></a></div>			
+					<div><a href="#"><img src="images/mainbox_m_b3.jpg" alt="" /></a></div>			
+			</div>
+		</div>
+		<div class="mainbox_r fl">
+			<ul class="tongzhi">
+				<li class="shangxin">
+					<p>每天10点上新</p>
+					<span>Am 10:00 update</span>
+				</li>
+				<li class="dijia">
+					<p>全网价格最低价</p>
+					<span>Hard bargain</span>
+				</li>
+				<li class="zhijian">
+					<p>商品人工质检</p>
+					<span>Quality inspection</span>
+				</li>
+			</ul>
+			<div class="zhuce">
+				<div class="zhuce_box">
+					<a href="#"><img src="images/zhuce.jpg" alt="" /></a>
+					<p>已有账号，马上 <a href="#">登录</a></p>
+				</div>
+			</div>
+			<div class="tab">
+				<div class="hd">
+					<span class="guanfang current"><a href="#">官方公告</a></span>
+					<span class="maijiaguize"><a href="#">卖家规则</a></span>
+				</div>
+				<div class="cl"></div>
+				<div class="bd">
+					<div class="current">
+						<ul>
+							<li><a href="#">优惠社2015春节放假公告</a></li>
+							<li><a href="#">优惠社：关于商家申请提现公告！</a></li>
+							<li><a href="#">优惠社的亲：对不起，我知道您在等我（1..</a></li>
+							<li><a href="#">关于优惠社多个账号抢购商品公告</a></li>
+						</ul>
+					</div>
+					<div>
+						<ul>
+							<li><a href="#">下单购买后不返款怎么办</a></li>
+							<li><a href="#">申请提现收取手续费么？</a></li>
+							<li><a href="#">如何获取商品订单编号</a></li>
+							<li><a href="#">买家如何抢购优惠社商品？</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- 选项卡的jq -->
+				<script type="text/javascript">
+					$(".mainbox .mainbox_r .tab .hd span").mouseenter(function(){
+
+			 	$(this).addClass("current").siblings().removeClass("current").parent(".hd").siblings(".bd").children("div").eq($(this).index()).addClass("current").siblings().removeClass("current");
+			   });
+				</script>
+			</div>
+		</div>
+	</div>
+	<!-- main结束 -->
+	<div class="cl h8"></div>
+	<!-- no1_f开始 -->
+	<div class="no1_f inner_c">
+		<span class="lingyuangou fl">1F 零元购</span>
+		<span class="jingxi fl">每天有惊喜</span>
+		<ul class="fr">
+			<li><a href="#">零元购</a></li>
+			<li><a href="#" class="new"><b></b>聚便宜</a></li>
+			<li><a href="#">聚便宜</a></li>
+			<li><a href="#">二十封顶</a></li>
+			<li><a href="#">三十封顶</a></li>
+			<li><a href="#">四十封顶</a></li>
+			<li><a href="#">今日新品</a></li>
+		</ul>
+	</div>
+	<!-- no1_f结束 -->
+	<!-- no1_content开始 -->
+	<div class="no1_content inner_c">
+		<div class="li1 li">
+			<div class="goods_img"><a href="#"><img src="images/1f1.jpg" alt="" /></a></div>
+			<div class="goods_title"><a href="#">包邮女式情趣内衣套装</a></div>
+			<div class="goods_price">
+				 <span class="g_price_icon">￥</span>
+                    <span class="g_price">0.00</span>
+                    <span class="g_nowPrice">9.8</span>
+                    <span class="goods_line"></span>
+                    <span class="g_lw">剩余</span>
+                    <span class="g_lNum">29</span>
+                    <span class="g_lper">份</span>
+			</div>
+		</div>
+		<div class="li2 li">
+			<div class="goods_img"><a href="#"><img src="images/1f2.jpg" alt="" /></a></div>
+			<div class="goods_title"><a href="#">冬瓜荷叶茶喝出美丽150克</a></div>
+			<div class="goods_price">
+				 <span class="g_price_icon">￥</span>
+                    <span class="g_price">0.00</span>
+                    <span class="g_nowPrice">29.9</span>
+                    <span class="goods_line"></span>
+                    <span class="g_lw">剩余</span>
+                    <span class="g_lNum">20</span>
+                    <span class="g_lper">份</span>
+			</div>
+		</div>
+		<div class="li3 li">
+			<div class="goods_img"><a href="#"><img src="images/1f3.jpg" alt="" /></a></div>
+			<div class="goods_title"><a href="#">休闲短裤 随机一条</a></div>
+			<div class="goods_price">
+				 <span class="g_price_icon">￥</span>
+                    <span class="g_price">0.00</span>
+                    <span class="g_nowPrice">53</span>
+                    <span class="goods_line"></span>
+                    <span class="g_lw">剩余</span>
+                    <span class="g_lNum">14</span>
+                    <span class="g_lper">份</span>
+			</div>
+		</div>
+		<div class="li4 li">
+			<div class="goods_img"><a href="#"><img src="images/1f4.jpg" alt="" /></a></div>
+			<div class="goods_title"><a href="#">减肥胶囊 0.35g/粒*24/盒</a></div>
+			<div class="goods_price">
+				 <span class="g_price_icon">￥</span>
+                    <span class="g_price">0.00</span>
+                    <span class="g_nowPrice">9.9</span>
+                    <span class="goods_line"></span>
+                    <span class="g_lw">剩余</span>
+                    <span class="g_lNum">12</span>
+                    <span class="g_lper">份</span>
+			</div>
+		</div>
+		<div class="li5 li">
+			<div class="goods_img"><a href="#"><img src="images/1f5.jpg" alt="" /></a></div>
+			<div class="goods_title"><a href="#">百叶条纹不透明自粘磨砂纸</a></div>
+			<div class="goods_price">
+				 <span class="g_price_icon">￥</span>
+                    <span class="g_price">0.00</span>
+                    <span class="g_nowPrice">8.5</span>
+                    <span class="goods_line"></span>
+                    <span class="g_lw">剩余</span>
+                    <span class="g_lNum">12</span>
+                    <span class="g_lper">份</span>
+			</div>
+		</div>
+		<div class="li6 li">
+			<div class="goods_img"><a href="#"><img src="images/1f6.jpg" alt="" /></a></div>
+			<div class="goods_title"><a href="#">防爆膜玻璃贴膜防碎</a></div>
+			<div class="goods_price">
+				 <span class="g_price_icon">￥</span>
+                    <span class="g_price">0.00</span>
+                    <span class="g_nowPrice">9.6</span>
+                    <span class="goods_line"></span>
+                    <span class="g_lw">剩余</span>
+                    <span class="g_lNum">11</span>
+                    <span class="g_lper">份</span>
+			</div>
+		</div>
+		<div class="li7 li">
+			<div class="goods_img"><a href="#"><img src="images/1f7.jpg" alt="" /></a></div>
+			<div class="goods_title"><a href="#">青花瓷勺筷两件套</a></div>
+			<div class="goods_price">
+				    <span class="g_price_icon">￥</span>
+                    <span class="g_price">0.00</span>
+                    <span class="g_nowPrice">100</span>
+                    <span class="goods_line"></span>
+                    <span class="g_lw">剩余</span>
+                    <span class="g_lNum">8</span>
+                    <span class="g_lper">份</span>
+			</div>
+		</div>
+		<div class="li8 li">
+			<div class="goods_img"><a href="#"><img src="images/1f8.jpg" alt="" /></a></div>
+			<div class="goods_title"><a href="#">LED小夜灯USB插头</a></div>
+			<div class="goods_price">
+			        <span class="g_price_icon">￥</span>
+                    <span class="g_price">0.00</span>
+                    <span class="g_nowPrice">100</span>
+                    <span class="goods_line"></span>
+                    <span class="g_lw">剩余</span>
+                    <span class="g_lNum">8</span>
+                    <span class="g_lper">份</span>
+             </div>
+		</div>
+		<div class="li9 li">
+			<div class="goods_img"><a href="#"><img src="images/1f9.jpg" alt="" /></a></div>
+			<div class="goods_title"><a href="#">vivo xplay3s手机壳</a></div>
+			<div class="goods_price">
+				    <span class="g_price_icon">￥</span>
+                    <span class="g_price">0.00</span>
+                    <span class="g_nowPrice">15</span>
+                    <span class="goods_line"></span>
+                    <span class="g_lw">剩余</span>
+                    <span class="g_lNum">6</span>
+                    <span class="g_lper">份</span>
+			</div>
+		</div>
+		<div class="li10 li">
+			<div class="goods_img"><a href="#"><img src="images/1f10.jpg" alt="" /></a></div>
+			<div class="goods_title"><a href="#">1袋汰渍260克洗衣粉</a></div>
+			<div class="goods_price">
+					<span class="g_price_icon">￥</span>
+                    <span class="g_price">0.00</span>
+                    <span class="g_nowPrice">98</span>
+                    <span class="goods_line"></span>
+                    <span class="g_lw">剩余</span>
+                    <span class="g_lNum">6</span>
+                    <span class="g_lper">份</span>
+			</div>
+		</div>
+	</div>
+	        <script type="text/javascript">
+						
+						$(".no1_content .li").mouseenter(function(){
+							
+								$(this).addClass("cur");
+							
+						});
+						$(".no1_content .li").mouseleave(function(){
+							$(this).removeClass("cur");
+						});
+						
+
+			</script>
+	<!-- no1_content结束 -->
+	<div class="cl h20"></div>
+	<!-- no2_f开始 -->
+	<div class="no2_f inner_c">
+		<span class="jupianyi fl">2F 聚便宜</span>
+		<span class="shangxian fl">全场包邮，每天10点上线</span>
+		<ul class="fr">
+			<li><a href="#">流行服饰</a></li>
+			<li><a href="#">运动鞋包</a></li>
+			<li><a href="#">美容饰品</a></li>
+			<li><a href="#">母婴百货</a></li>
+			<li><a href="#">家电数码</a></li>
+			<li class="gengduo"><a href="#"><img src="images/floor_2F.png" alt="" /></a></li>
+		</ul>
+	</div>
+	<div class="no2_content inner_c">
+		<div class="li li1">
+			<div class="in ">
+				<div class="goods_img"><a href="#"><img src="images/2f1.jpg" alt="" /></a></div>
+				<div class="goods_title"><a href="#">中药祛痘产品套装</a></div>
+				<div class="goods_price">
+					<span class="g_price_icon">￥</span>
+                    <span class="g_price">4.50</span>
+                    <span class="g_baoyou"><b></b>31.90</span> 
+                    <span class="g_qiang"><a href="#"><img src="images/qiang.png" alt="" /></a></span>
+			    </div>
+			</div>
+		</div>
+		<div class="li li2">
+			<div class="in">
+				<div class="goods_img"><a href="#"><img src="images/2f1.jpg" alt="" /></a></div>
+				<div class="goods_title"><a href="#">中药祛痘产品套装</a></div>
+				<div class="goods_price">
+					<span class="g_price_icon">￥</span>
+                    <span class="g_price">4.90</span>
+                    <span class="g_baoyou"><b></b>24.90</span> 
+                    <span class="g_qiang"><a href="#"><img src="images/qiang.png" alt="" /></a></span>
+			    </div>
+			</div>
+		</div>
+		<div class="li li3">
+			<div class="in">
+				<div class="goods_img"><a href="#"><img src="images/2f3.jpg" alt="" /></a></div>
+				<div class="goods_title"><a href="#">控油祛痘洗面奶</a></div>
+				<div class="goods_price">
+					<span class="g_price_icon">￥</span>
+                    <span class="g_price">3.50</span>
+                    <span class="g_baoyou"><b></b>44.90</span> 
+                    <span class="g_qiang"><a href="#"><img src="images/qiang.png" alt="" /></a></span>
+			    </div>
+			</div>
+		</div>
+		<div class="li li4">
+			<div class="in">
+				<div class="goods_img"><a href="#"><img src="images/2f4.jpg" alt="" /></a></div>
+				<div class="goods_title"><a href="#">睫毛生长液滋养</a></div>
+				<div class="goods_price">
+					<span class="g_price_icon">￥</span>
+                    <span class="g_price">2.90</span>
+                    <span class="g_baoyou"><b></b>29.90</span> 
+                    <span class="g_qiang"><a href="#"><img src="images/qiang.png" alt="" /></a></span>
+			    </div>
+			</div>
+		</div>
+		<div class="li li5">
+			<div class="in">
+				<div class="goods_img"><a href="#"><img src="images/2f5.jpg" alt="" /></a></div>
+				<div class="goods_title"><a href="#">祛痘保湿控油芦荟胶</a></div>
+				<div class="goods_price">
+					<span class="g_price_icon">￥</span>
+                    <span class="g_price">1.50</span>
+                    <span class="g_baoyou"><b></b>14.90</span> 
+                    <span class="g_qiang"><a href="#"><img src="images/qiang.png" alt="" /></a></span>
+                </div>
+			</div>
+		</div>
+		<div class="li li6">
+			<div class="in">
+				<div class="goods_img"><a href="#"><img src="images/2f6.jpg" alt="" /></a></div>
+				<div class="goods_title"><a href="#">925银饰吊坠女十二星座</a></div>
+				<div class="goods_price">
+					<span class="g_price_icon">￥</span>
+                    <span class="g_price">1.90</span>
+                    <span class="g_baoyou"><b></b>38.90</span> 
+                    <span class="g_qiang"><a href="#"><img src="images/qiang.png" alt="" /></a></span>
+			    </div>
+			</div>
+		</div>
+		<div class="li li7">
+			<div class="in">
+				<div class="goods_img"><a href="#"><img src="images/2f7.png" alt="" /></a></div>
+				<div class="goods_title"><a href="#">纯棉袜子5双盒装</a></div>
+				<div class="goods_price">
+					<span class="g_price_icon">￥</span>
+                    <span class="g_price">8.90</span>
+                    <span class="g_baoyou"><b></b>34.90</span> 
+                    <span class="g_qiang"><a href="#"><img src="images/qiang.png" alt="" /></a></span>
+			    </div>
+			</div>
+		</div>
+		<div class="li li8">
+			<div class="in">
+				<div class="goods_img"><a href="#"><img src="images/2f8.jpg" alt="" /></a></div>
+				<div class="goods_title"><a href="#">厂家直销宽松显瘦t恤</a></div>
+				<div class="goods_price">
+					<span class="g_price_icon">￥</span>
+                    <span class="g_price">5.90</span>
+                    <span class="g_baoyou"><b></b>24.90</span> 
+                    <span class="g_qiang"><a href="#"><img src="images/qiang.png" alt="" /></a></span>
+			    </div>
+			</div>
+		</div>
+	</div>
+    		<script type="text/javascript">
+						
+						$(".no2_content .li .in").mouseenter(function(){
+							
+								$(this).addClass("cur");
+							
+						});
+						$(".no2_content .li .in").mouseleave(function(){
+							$(this).removeClass("cur");
+						});
+						
+
+			</script>
+	<!-- no2_f结束 -->
+	<div class="cl h20"></div>
+	<!-- no3_f开始 -->
+	<div class="no3_f inner_c">
+		<span class="jiukuai fl">3F 九块九专区</span>
+		<span class="baoyou fl">全场包邮</span>
+		<ul class="fr">
+			<li><a href="#">流行服饰</a></li>
+			<li><a href="#">运动鞋包</a></li>
+			<li><a href="#">美容饰品</a></li>
+			<li><a href="#">母婴百货</a></li>
+			<li><a href="#">家电数码</a></li>
+			<li class="gengduo"><a href="#"><img src="images/floor_3F.png" alt="" /></a></li>
+		</ul>
+	</div>
+	<div class="no3_content inner_c">
+		<div class="li li1">
+			<div class="in ">
+				<div class="goods_img"><a href="#"><img src="images/3f1.jpg" alt="" /></a></div>
+				<div class="goods_title"><a href="#">宝宝纯棉按扣口水巾</a></div>
+				<div class="goods_price">
+					<span class="g_price_icon">￥</span>
+                    <span class="g_price">3.50</span>
+                    <span class="g_baoyou"><b></b>31.90</span> 
+                    <span class="g_yimai"><a href="#"><b>789</b>人购买</a></span>
+			    </div>
+			</div>
+		</div>
+		<div class="li li2">
+			<div class="in">
+				<div class="goods_img"><a href="#"><img src="images/3f2.jpg" alt="" /></a></div>
+				<div class="goods_title"><a href="#">多功能安全锁(10个)</a></div>
+				<div class="goods_price">
+					<span class="g_price_icon">￥</span>
+                    <span class="g_price">8.90</span>
+                    <span class="g_baoyou"><b></b>48.90</span> 
+                    <span class="g_yimai"><a href="#"><b>621</b>人购买</a></span>
+			    </div>
+			</div>
+		</div>
+		<div class="li li3">
+			<div class="in">
+				<div class="goods_img"><a href="#"><img src="images/3f3.jpg" alt="" /></a></div>
+				<div class="goods_title"><a href="#">婴儿推车通用透气凉席</a></div>
+				<div class="goods_price">
+					<span class="g_price_icon">￥</span>
+                    <span class="g_price">8.90</span>
+                    <span class="g_baoyou"><b></b>21.90</span> 
+                    <span class="g_yimai"><a href="#"><b>749</b>人购买</a></span>
+			    </div>
+			</div>
+		</div>
+		<div class="li li4">
+			<div class="in">
+				<div class="goods_img"><a href="#"><img src="images/3f4.jpg" alt="" /></a></div>
+				<div class="goods_title"><a href="#">孕妇纯棉防风月子帽</a></div>
+				<div class="goods_price">
+					<span class="g_price_icon">￥</span>
+                    <span class="g_price">6.90</span>
+                    <span class="g_baoyou"><b></b>19.90</span> 
+                    <span class="g_yimai"><a href="#"><b>699</b>人购买</a></span>
+			    </div>
+			</div>
+		</div>
+		<div class="li li5">
+			<div class="in">
+				<div class="goods_img"><a href="#"><img src="images/3f5.jpg" alt="" /></a></div>
+				<div class="goods_title"><a href="#">婴儿卡通印花纯棉肚兜</a></div>
+				<div class="goods_price">
+					<span class="g_price_icon">￥</span>
+                    <span class="g_price">5.80</span>
+                    <span class="g_baoyou"><b></b>18.90</span> 
+                    <span class="g_yimai"><a href="#"><b>323</b>人购买</a></span>
+                </div>
+			</div>
+		</div>
+		<div class="li li6">
+			<div class="in">
+				<div class="goods_img"><a href="#"><img src="images/3f6.jpg" alt="" /></a></div>
+				<div class="goods_title"><a href="#">北极绒宝宝纯棉背心</a></div>
+				<div class="goods_price">
+					<span class="g_price_icon">￥</span>
+                    <span class="g_price">9.90</span>
+                    <span class="g_baoyou"><b></b>89.90</span> 
+                    <span class="g_yimai"><a href="#"><b>423</b>人购买</a></span>
+			    </div>
+			</div>
+		</div>
+		<div class="li li7">
+			<div class="in">
+				<div class="goods_img"><a href="#"><img src="images/3f7.jpg" alt="" /></a></div>
+				<div class="goods_title"><a href="#">百搭吊带纯色紧身背心</a></div>
+				<div class="goods_price">
+					<span class="g_price_icon">￥</span>
+                    <span class="g_price">8.80</span>
+                    <span class="g_baoyou"><b></b>100.90</span> 
+                    <span class="g_yimai"><a href="#"><b>648</b>人购买</a></span>
+			    </div>
+			</div>
+		</div>
+		<div class="li li8">
+			<div class="in">
+				<div class="goods_img"><a href="#"><img src="images/3f8.jpg" alt="" /></a></div>
+				<div class="goods_title"><a href="#">小学生作文大百科</a></div>
+				<div class="goods_price">
+					<span class="g_price_icon">￥</span>
+                    <span class="g_price">9.90</span>
+                    <span class="g_baoyou"><b></b>50.90</span> 
+                    <span class="g_yimai"><a href="#"><b>978</b>人购买</a></span>
+			    </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+						
+						$(".no3_content .li .in").mouseenter(function(){
+							
+								$(this).addClass("cur");
+							
+						});
+						$(".no3_content .li .in").mouseleave(function(){
+							$(this).removeClass("cur");
+						});
+						
+
+	</script>
+	<!-- no3_f结束 -->
+	<div class="cl h20"></div>
+	<!-- no4_f开始 -->
+	<div class="no3_f inner_c no4_f">
+		<span class="jiukuai fl zhekou">4F 超值折扣</span>
+		<span class="baoyou fl">全场包邮</span>
+		<ul class="fr">
+			<li><a href="#">流行服饰</a></li>
+			<li><a href="#">运动鞋包</a></li>
+			<li><a href="#">美容饰品</a></li>
+			<li><a href="#">母婴百货</a></li>
+			<li><a href="#">家电数码</a></li>
+			<li class="gengduo"><a href="#"><img src="images/floor_4F.png" alt="" /></a></li>
+		</ul>
+	</div>
+	<div class="no3_content no4_content inner_c">
+		<div class="li li1">
+			<div class="in ">
+				<div class="goods_img"><a href="#"><img src="images/4f1.jpg" alt="" /></a></div>
+				<div class="goods_title"><a href="#">玛尚超薄巧克力键盘</a></div>
+				<div class="goods_price">
+					<span class="g_price_icon">￥</span>
+                    <span class="g_price">17.50</span>
+                    <span class="g_baoyou"><b></b>59.90</span> 
+                    <span class="g_yimai"><a href="#"><b>992</b>人购买</a></span>
+			    </div>
+			</div>
+		</div>
+		<div class="li li2">
+			<div class="in">
+				<div class="goods_img"><a href="#"><img src="images/4f2.jpg" alt="" /></a></div>
+				<div class="goods_title"><a href="#">安月卫生巾套装(44片)</a></div>
+				<div class="goods_price">
+					<span class="g_price_icon">￥</span>
+                    <span class="g_price">18.90</span>
+                    <span class="g_baoyou"><b></b>38.90</span> 
+                    <span class="g_yimai"><a href="#"><b>735</b>人购买</a></span>
+			    </div>
+			</div>
+		</div>
+		<div class="li li3">
+			<div class="in">
+				<div class="goods_img"><a href="#"><img src="images/4f3.jpg" alt="" /></a></div>
+				<div class="goods_title"><a href="#">不锈钢晾衣架(0.6m)</a></div>
+				<div class="goods_price">
+					<span class="g_price_icon">￥</span>
+                    <span class="g_price">18.90</span>
+                    <span class="g_baoyou"><b></b>78.90</span> 
+                    <span class="g_yimai"><a href="#"><b>806</b>人购买</a></span>
+			    </div>
+			</div>
+		</div>
+		<div class="li li4">
+			<div class="in">
+				<div class="goods_img"><a href="#"><img src="images/4f4.jpg" alt="" /></a></div>
+				<div class="goods_title"><a href="#">夏季女士性感抹胸浴巾</a></div>
+				<div class="goods_price">
+					<span class="g_price_icon">￥</span>
+                    <span class="g_price">18.90</span>
+                    <span class="g_baoyou"><b></b>119.90</span> 
+                    <span class="g_yimai"><a href="#"><b>599</b>人购买</a></span>
+			    </div>
+			</div>
+		</div>
+		<div class="li li5">
+			<div class="in">
+				<div class="goods_img"><a href="#"><img src="images/4f5.jpg" alt="" /></a></div>
+				<div class="goods_title"><a href="#">可爱保温杯(500ml)</a></div>
+				<div class="goods_price">
+					<span class="g_price_icon">￥</span>
+                    <span class="g_price">15.80</span>
+                    <span class="g_baoyou"><b></b>58.90</span> 
+                    <span class="g_yimai"><a href="#"><b>331</b>人购买</a></span>
+                </div>
+			</div>
+		</div>
+		<div class="li li6">
+			<div class="in">
+				<div class="goods_img"><a href="#"><img src="images/4f6.jpg" alt="" /></a></div>
+				<div class="goods_title"><a href="#">不锈钢压蒜蓉捣蒜器</a></div>
+				<div class="goods_price">
+					<span class="g_price_icon">￥</span>
+                    <span class="g_price">16.90</span>
+                    <span class="g_baoyou"><b></b>49.90</span> 
+                    <span class="g_yimai"><a href="#"><b>923</b>人购买</a></span>
+			    </div>
+			</div>
+		</div>
+		<div class="li li7">
+			<div class="in">
+				<div class="goods_img"><a href="#"><img src="images/4f7.jpg" alt="" /></a></div>
+				<div class="goods_title"><a href="#">吸盘式防水纸巾架</a></div>
+				<div class="goods_price">
+					<span class="g_price_icon">￥</span>
+                    <span class="g_price">15.30</span>
+                    <span class="g_baoyou"><b></b>38.90</span> 
+                    <span class="g_yimai"><a href="#"><b>829</b>人购买</a></span>
+			    </div>
+			</div>
+		</div>
+		<div class="li li8">
+			<div class="in">
+				<div class="goods_img"><a href="#"><img src="images/4f8.jpg" alt="" /></a></div>
+				<div class="goods_title"><a href="#">会计从业资格书(6册)</a></div>
+				<div class="goods_price">
+					<span class="g_price_icon">￥</span>
+                    <span class="g_price">19.90</span>
+                    <span class="g_baoyou"><b></b>150.90</span> 
+                    <span class="g_yimai"><a href="#"><b>452</b>人购买</a></span>
+			    </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+						
+						$(".no3_content .li .in").mouseenter(function(){
+							
+								$(this).addClass("cur");
+							
+						});
+						$(".no3_content .li .in").mouseleave(function(){
+							$(this).removeClass("cur");
+						});
+						
+
+	</script>
+	<!-- no4_f结束 -->
+	<div class="cl h20 bd_b"></div>
+	<!-- about开始 -->
+	<div class="inner_c">
+		<div class="about ">
+			<div class="no1 fl">
+				<dl>
+					<dt>关于我们</dt>
+					<dd><a href="#">关于优惠社</a></dd>
+					<dd><a href="#">人才招聘</a></dd>
+					<dd><a href="#">联系我们</a></dd>
+				</dl>
+			</div>
+			<div class="no2 fl">
+				<dl>
+					<dt>买家常见问题</dt>
+					<dd><a href="#">优惠社买家规则</a></dd>
+					<dd><a href="#">如何抢购商品</a></dd>
+					<dd><a href="#">如何获取订单编号</a></dd>
+				</dl>
+			</div>
+			<div class="no3 fl">
+				<dl>
+					<dt>商家常见问题</dt>
+					<dd><a href="#">优惠社商家规则</a></dd>
+					<dd><a href="#">商家如何发布商品</a></dd>
+					<dd><a href="#">商家报名中心</a></dd>
+				</dl>
+			</div>
+			<div class="no4 fl">
+				<dl>
+					<dt>帮助中心</dt>
+					<dd><a href="#">建议有奖</a></dd>
+					<dd><a href="#">常见问题</a></dd>
+					<dd><a href="#">网站地图</a></dd>
+				</dl>
+			</div>
+			<div class="no5 fl">
+				<dl>
+					<dt>服务中心</dt>
+					<dd><a href="#">服务协议</a></dd>
+					<dd><a href="#">在线客服</a></dd>
+					<dd><a href="#">手机客户端</a></dd>
+				</dl>
+			</div>
+		</div>
+	</div>
+	<!-- about结束 -->
+	<!-- footer开始 -->
+	<div class="footer inner_c">
+		<div class="link">
+			<div class="youqing fl">友情链接 ：</div>
+			<div class="carousel fl" >
+				<ul class="gundong">
+					<li class="sougou">
+						<a rel="nofollow" href="http://www.sogou.com/">搜狗</a>
+						<a rel="nofollow" href="http://www.so.com/">360搜索</a>
+						<a rel="nofollow" href="http://www.taobao.com/">淘宝网</a>
+						<a rel="nofollow" href="http://www.etao.com/">一淘网</a>
+						<a rel="nofollow" href="http://www.hao123.com/">好123</a>
+						<a rel="nofollow" href="http://www.1111.com/">淘宝双十一</a>
+						<a rel="nofollow" href="http://www.uiyi.cn/">佑一良品</a>
+						<a rel="nofollow" href="http://quan.163.com/">优惠券</a>
+						<a rel="nofollow" href="http://www.wbiao.cn/seiko-watches/">seiko</a>
+						<a rel="nofollow" href="http://www.17ugo.com/">网上购物</a>
+						<a rel="nofollow" href="http://www.s.cn/yaseshi-brand.html">asics</a>
+					</li>
+					<li class="youhuishe">
+						<a href="./优惠社-会省钱，惠生活！国内领先知名折扣网站！汇集全网精品超低折扣信息_files/优惠社-会省钱，惠生活！国内领先知名折扣网站！汇集全网精品超低折扣信息.html">优惠社</a>
+						<a href="http://miao.youhuishe.com/">1元秒杀</a>
+						<a href="http://9.youhuishe.com/">九块九包邮</a>
+						<a href="http://mian.youhuishe.com/">零元购</a>
+						<a rel="nofollow" href="http://www.3jgo.com/">三佳购物</a>
+						<a rel="nofollow" href="http://www.xa189buy.cn/">西安电信商城 </a>
+						<a rel="nofollow" href="http://www.homevv.com/">为为网上商城 </a>
+						<a rel="nofollow" href="http://www.xiu.com/">走秀网 </a>
+						<a rel="nofollow" href="http://www.handu.com/">韩都衣舍</a>
+						<a href="http://webscan.360.cn/index/checkwebsite/url/www.youhuishe.com">360网网络安全检测平台</a>
+					</li>
+					<li class="tuangou">
+						<a rel="nofollow" href="http://www.hao224.com/">团购网</a>
+						<a rel="nofollow" href="http://www.vico.cn/">COCO薇-折扣团购</a>
+						<a rel="nofollow" href="http://www.cunan.com/zmc/">植美村官网</a>
+						<a rel="nofollow" href="http://www.wbiao.cn/seiko-watches/">seiko</a>
+						<a href="http://www.myguancha.com/">母婴行业观察</a>
+					</li>
+				</ul>
+			</div>
+
+			<!-- 滚动的js脚本 -->
+			<script type="text/javascript">
+				var $carousel = $(".footer .link .carousel");
+			    var $gundong = $(".footer .link .carousel .gundong");
+			    var liAmount = $gundong.children("li").length;
+
+			    $gundong.children(".sougou").clone().appendTo($gundong);
+			    var nowrow = 0;
+
+			function rightBtnFun(){
+				nowrow ++;
+				if(nowrow > liAmount){
+					nowrow = 1;
+					$gundong.css("top",0);
+				}
+				//拉动火车
+				$gundong.animate({"top":-18 * nowrow},400);
+			}
+			
+			var timer = setInterval(rightBtnFun, 2000);
+			$carousel.mouseenter(function(){clearInterval(timer);});
+			$carousel.mouseleave(function(){clearInterval(timer);timer = setInterval(rightBtnFun, 2000);});
+		
+			</script>
+		</div>
+		<div class="copyright">
+			Copyright ©2015 优惠社. All Rights Reserved. 京ICP备14000188号-2
+			<a href="#"><img src="images/icon_qq.gif" alt="" /></a>
+		</div>
+		<div class="tubiao">
+			<a href="#"><img src="images/360.png" alt="" /></a>
+			<a href="#"><img src="images/ke.png" alt="" /></a>
+			<a href="#"><img src="images/xingzheng.png" alt="" /></a>
+			<a href="#"><img src="images/gonggong.png" alt="" /></a>
+			<a href="#"><img src="images/wang.png" alt="" /></a>
+			<a href="#"><img src="images/lian.png" alt="" /></a>
+			<a href="#"><img src="images/hy_83x30.png" alt="" /></a>
+		</div>
+	</div>
+	<!-- footer结束 -->
+</body>
+</html>
